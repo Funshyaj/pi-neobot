@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pi-neobot/static/css/main.f1989354.css",
+    "main.js": "/pi-neobot/static/js/main.387c77af.js",
+    "static/js/787.3356d9bc.chunk.js": "/pi-neobot/static/js/787.3356d9bc.chunk.js",
+    "index.html": "/pi-neobot/index.html",
+    "main.f1989354.css.map": "/pi-neobot/static/css/main.f1989354.css.map",
+    "main.387c77af.js.map": "/pi-neobot/static/js/main.387c77af.js.map",
+    "787.3356d9bc.chunk.js.map": "/pi-neobot/static/js/787.3356d9bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1989354.css",
+    "static/js/main.387c77af.js"
+  ]
+}
