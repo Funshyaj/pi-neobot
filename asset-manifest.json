@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pi-neobot/static/css/main.8e15f65f.css",
-    "main.js": "/pi-neobot/static/js/main.62df7cb9.js",
+    "main.css": "/pi-neobot/static/css/main.d41af1cb.css",
+    "main.js": "/pi-neobot/static/js/main.d1670b46.js",
     "static/js/787.3356d9bc.chunk.js": "/pi-neobot/static/js/787.3356d9bc.chunk.js",
     "static/media/logo.png": "/pi-neobot/static/media/logo.c0ae7ce24b4a12d851d0.png",
     "index.html": "/pi-neobot/index.html",
-    "main.8e15f65f.css.map": "/pi-neobot/static/css/main.8e15f65f.css.map",
-    "main.62df7cb9.js.map": "/pi-neobot/static/js/main.62df7cb9.js.map",
+    "main.d41af1cb.css.map": "/pi-neobot/static/css/main.d41af1cb.css.map",
+    "main.d1670b46.js.map": "/pi-neobot/static/js/main.d1670b46.js.map",
     "787.3356d9bc.chunk.js.map": "/pi-neobot/static/js/787.3356d9bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e15f65f.css",
-    "static/js/main.62df7cb9.js"
+    "static/css/main.d41af1cb.css",
+    "static/js/main.d1670b46.js"
   ]
 }
