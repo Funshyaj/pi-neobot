@@ -55,14 +55,14 @@ const config = {headers: {'Content-Type': 'application/json', 'Access-Control-Al
 
 
 function App() {
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState<User | null>(null)
   
   const signIn = async () => { 
   const scopes = ['username', 'payments']; 
-  console.log(scopes)
-  // const authResult: AuthResult = await window.Pi.authenticate(scopes, onIncompletePaymentFound); 
-  // signInUser(authResult); 
-  // setUser(authResult.user); 
+  const authResult: AuthResult = await window.Pi.authenticate(scopes,onIncompletePaymentFound ); 
+  signInUser(authResult); 
+  setUser(authResult.user); 
+   console.log(user)
 } 
 
 const signOut = () => { 
@@ -76,6 +76,11 @@ const signInUser = (authResult: AuthResult) => {
 
 const signOutUser = () => { 
   return axiosClient.get('/user/signout'); 
+}
+
+const onIncompletePaymentFound = (payment: PaymentDTO) => { 
+  console.log("onIncompletePaymentFound", payment); 
+  return axiosClient.post('/payments/incomplete', {payment}); 
 }
 
   return (
