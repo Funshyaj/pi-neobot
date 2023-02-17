@@ -21,7 +21,11 @@ p{
 }
 
 .button{
-  @apply px-14 py-3  md:px-12 md:py-2 md:text-lg font-medium text-white rounded
+  @apply   md:px-12 md:py-2 md:text-lg font-medium text-white rounded
+}
+
+.chat-text{
+  @apply   bg-dark-green text-white max-w-[80%] min-w-[40%] mb-2  shadow-xl ml-3 rounded text-left py-1 pl-3
 }
 
 .shadows{

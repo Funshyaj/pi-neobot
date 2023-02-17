@@ -3,6 +3,7 @@ import { useState } from 'react';
 import axios from 'axios';
 import Login from './pages/login';
 import Welcome from './pages/welcome';
+import ChatPage from './pages/chatPage';
 
 
 type MypaymentMetaData ={};
@@ -88,6 +89,7 @@ const onIncompletePaymentFound = (payment: PaymentDTO) => {
       <Routes>
         <Route  path='/' element={<Welcome />} />
         <Route  path='/login' element={<Login signIn={signIn}/>} />
+        <Route  path='/chatpage' element={<ChatPage/>} />
       </Routes>
       
     </div>
