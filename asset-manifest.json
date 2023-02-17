@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/pi-neobot/static/css/main.f1989354.css",
-    "main.js": "/pi-neobot/static/js/main.387c77af.js",
+    "main.css": "/pi-neobot/static/css/main.8e15f65f.css",
+    "main.js": "/pi-neobot/static/js/main.62df7cb9.js",
     "static/js/787.3356d9bc.chunk.js": "/pi-neobot/static/js/787.3356d9bc.chunk.js",
+    "static/media/logo.png": "/pi-neobot/static/media/logo.c0ae7ce24b4a12d851d0.png",
     "index.html": "/pi-neobot/index.html",
-    "main.f1989354.css.map": "/pi-neobot/static/css/main.f1989354.css.map",
-    "main.387c77af.js.map": "/pi-neobot/static/js/main.387c77af.js.map",
+    "main.8e15f65f.css.map": "/pi-neobot/static/css/main.8e15f65f.css.map",
+    "main.62df7cb9.js.map": "/pi-neobot/static/js/main.62df7cb9.js.map",
     "787.3356d9bc.chunk.js.map": "/pi-neobot/static/js/787.3356d9bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1989354.css",
-    "static/js/main.387c77af.js"
+    "static/css/main.8e15f65f.css",
+    "static/js/main.62df7cb9.js"
   ]
 }
