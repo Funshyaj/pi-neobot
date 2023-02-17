@@ -24,13 +24,16 @@
          sandbox: "%REACT_APP_SANDBOX_SDK%", 
        }
     </script>
+
     <!-- import pi network app platform sdk -->
     <script src="https://sdk.minepi.com/pi-sdk.js"></script>
-    <!-- init pi sdk -->
+
+
+    
     <script>
     var runSDKInSandboxMode = window.__ENV.sandbox === 'true';
-    
-    Pi.init({ version: "2.0" })</script>
+    <!-- init pi sdk -->
+    Pi.init({ version: "2.0" , sandbox:runSDKInSandboxMode })</script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.

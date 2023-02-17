@@ -1,12 +1,12 @@
 import logo from './logo.png'
 import { Link } from 'react-router-dom';
 import Login from '../login';
-
+// mt-[12%] md:mt-20 lg:mt-28
 const Welcome = () => {
-    return ( <div className="flex h-screen flex-col items-center gap-10">
+    return ( <div className="flex h-screen flex-col justify-center items-center gap-10">
         <div >
-          <h1 className="text-3xl lg:text-5xl font-semibold mb-10 mt-28 text-center">Welcome to Pi-NeoBot</h1>
-        <img src={logo} alt="logo_png" className="min-h-[180px] w-4/5 md:w-2/5 lg:w-1/5 my-0 mx-auto animate-pulse"/>   
+          <h1 className="text-3xl lg:text-5xl font-semibold mb-10 mx-3  text-center">Welcome to Pi-NeoBot</h1>
+        <img src={logo} alt="logo_png" className="min-h-[180px] w-[70%] md:w-2/5 lg:w-1/5 my-0 mx-auto animate-pulse"/>   
         </div>
            
            <div className="flex flex-col items-center lg:flex-row gap-5 mx-5">
