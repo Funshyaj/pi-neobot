@@ -6,10 +6,11 @@ module.exports = {
   theme: {
     extend: {
             colors: {
+        'verdigrisL': 'hsla(183, 73%, 72%, 0.5)',
+        'verdigris': 'hsla(183, 73%, 42%, 1)',
+        'moonstone': 'hsla(185, 89%, 37%, 1)',
         'cerulean': 'hsla(195, 86%, 27%, 1)',
         'ceruleanD': 'hsla(195, 86%, 18%, 1)',
-'moonstone': 'hsla(185, 89%, 37%, 1)',
-'verdigris': 'hsla(183, 73%, 42%, 1)',
 'dark-green': 'hsla(180, 100%, 7%, 1)',
 'dark-greenL': 'hsla(180, 100%, 17%, 1)',
 'pi-color': 'hsla(276, 50%, 32%, 1)',

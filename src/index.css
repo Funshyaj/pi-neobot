@@ -25,12 +25,41 @@ p{
 }
 
 .chat-text{
-  @apply   bg-dark-green text-white max-w-[80%] min-w-[40%] mb-2  shadow-xl ml-3 rounded text-left py-1 pl-3
+  @apply   bg-verdigris inline-block text-white max-w-[80%] min-w-[40%] mb-2  shadow-xl text-left py-1.5 px-3 
+  rounded-tr-xl
+  rounded-br-xl
+  rounded-bl-xl
 }
 
 .shadows{
   box-shadow: 3px, 0px, 30px , 6px, rgba(0, 0, 0 / 9%);
 }
+
+.alert{@apply   
+   rounded text-white p-3 text-xs bg-dark-green my-1 }
+
+
+.chat-message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.chat-message-text {
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  padding: 10px 15px;
+  max-width: 70%;
+  word-wrap: break-word;
+  margin-bottom: 5px;
+}
+
+.chat-message-time {
+  font-size: 12px;
+  color: #999;
+}
+
 
 @tailwind base;
 @tailwind components;

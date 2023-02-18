@@ -14,14 +14,17 @@ const Login = ({signIn}:signIn) => {
 
 
 <div className='flex justify-center items-center h-screen lg:absolute lg:right-0 lg:w-2/5 '>
-<Link to='/chatpage'>
-          <button className="button px-14 py-3 text-2xl bg-cerulean hover:bg-ceruleanD active:bg-ceruleanD">chatPage</button>
-            </Link>
+
             <div className="flex flex-col gap-5 items-center w-full px-10 md:px-20">
               <p className="text-xl lg:text-2xl text-pi-color-D">Authenticate with Pi Network</p>
-            <button className="button text-[7vw] md:text-[1.7rem] bg-pi-color hover:bg-pi-color-D w-full gap-5 pl-0 flex justify-center items-center py-3 pr-2" onClick={signIn}>
+            <button className="button text-[7vw] md:text-[1.7rem] bg-pi-color hover:bg-pi-color-D w-full lg:w-4/5 gap-5 pl-0 flex justify-center items-center py-3 pr-2" onClick={signIn}>
                 <img src={piLogo} alt="" className='w-10' />
-                Login with PI</button>  
+                Login with PI
+                </button>
+<p>This chat page will only be available on login this is just for test</p>
+                <Link to='/chatpage'>
+          <button className="button px-2 py-3 text-2xl bg-cerulean hover:bg-ceruleanD active:bg-ceruleanD">Proceed without login</button>
+            </Link>  
             </div>
 
             
