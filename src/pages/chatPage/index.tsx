@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 const ChatPage = () => {
     
     const [message, setMessage] = useState<string>('')
     const [value, setValue] = useState<string>('')
     const [show, setShow] = useState<Boolean>(false)
+    const [phoneHeight, setPhoneHeight] = useState<number>()
 
 type change = {
     change:()=> void
@@ -20,13 +21,19 @@ const display =()=>{
     setShow(false)
    }
 }
+
+useEffect(() => {
+setPhoneHeight(window.outerHeight)
+ });
+
+
     return ( <div className="h-screen">
 
 <div className="hidden lg:flex flex- col fixed left-0 w-1/5">
 fdf
 </div>
 
-<div className="relative lg:ml-[20%] h-screen bg-verdigrisL">
+<div className={`relative lg:ml-[20%] h-[${phoneHeight}px] bg-verdigrisL`}>
 
 {/* message display */}
 

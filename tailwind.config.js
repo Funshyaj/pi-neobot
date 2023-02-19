@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
             colors: {
-        'verdigrisL': 'hsla(183, 73%, 72%, 0.5)',
+        'verdigrisL': 'hsla(183, 53%, 82%, 25%)',
         'verdigris': 'hsla(183, 73%, 42%, 1)',
         'moonstone': 'hsla(185, 89%, 37%, 1)',
         'cerulean': 'hsla(195, 86%, 27%, 1)',
@@ -18,7 +18,10 @@ module.exports = {
 'off-white':'rgb(239 239 239 / 57%)'
 },
 boxShadow:{
-  'sideShadow': '3px, 0px, 30px , 6px, rgb(0,0, 0 / 80%);',
+  'sideShadow': '3px, 0px, 30px , 6px, rgb(0,0, 0 / 80%)',
+},
+fontFamily:{
+  'head': ['header'],
 }
     },
   },

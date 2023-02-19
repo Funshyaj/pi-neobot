@@ -7,9 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'header';
+  src:local('header') url(./pages/assets/fonts/20db.otf) 
+   format('opentype');
 }
 
 h1,h2,h2{

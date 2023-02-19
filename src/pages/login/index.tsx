@@ -1,5 +1,5 @@
-import logo from '../assets/logo.png';
-import piLogo from '../assets/pi-logo.png';
+import logo from '../assets/images/neobot-logo.png';
+import piLogo from '../assets/images/pi-logo.png';
 import { Link } from 'react-router-dom';
 
 type signIn={
@@ -19,7 +19,7 @@ const Login = ({signIn}:signIn) => {
               <p className="text-xl lg:text-2xl text-pi-color-D">Authenticate with Pi Network</p>
             <button className="button text-[7vw] md:text-[1.7rem] bg-pi-color hover:bg-pi-color-D w-full lg:w-4/5 gap-5 pl-0 flex justify-center items-center py-3 pr-2" onClick={signIn}>
                 <img src={piLogo} alt="" className='w-10' />
-                Login with PI
+                Login with Pi
                 </button>
 <p>This chat page will only be available on login this is just for test</p>
                 <Link to='/chatpage'>
