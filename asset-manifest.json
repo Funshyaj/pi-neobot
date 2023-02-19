@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/pi-neobot/static/css/main.2dfdaafc.css",
-    "main.js": "/pi-neobot/static/js/main.f27add16.js",
+    "main.css": "/pi-neobot/static/css/main.d152b3e7.css",
+    "main.js": "/pi-neobot/static/js/main.400f5e1b.js",
     "static/js/787.3356d9bc.chunk.js": "/pi-neobot/static/js/787.3356d9bc.chunk.js",
-    "static/media/logo.png": "/pi-neobot/static/media/logo.c0ae7ce24b4a12d851d0.png",
+    "static/media/neobot-logo.png": "/pi-neobot/static/media/neobot-logo.b5c53910020aac7607d3.png",
     "static/media/pi-logo.png": "/pi-neobot/static/media/pi-logo.aeaf6b94c19790e8e828.png",
+    "static/media/20db.otf": "/pi-neobot/static/media/20db.3951b65fc21dfb02f6b9.otf",
     "index.html": "/pi-neobot/index.html",
-    "main.2dfdaafc.css.map": "/pi-neobot/static/css/main.2dfdaafc.css.map",
-    "main.f27add16.js.map": "/pi-neobot/static/js/main.f27add16.js.map",
+    "main.d152b3e7.css.map": "/pi-neobot/static/css/main.d152b3e7.css.map",
+    "main.400f5e1b.js.map": "/pi-neobot/static/js/main.400f5e1b.js.map",
     "787.3356d9bc.chunk.js.map": "/pi-neobot/static/js/787.3356d9bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dfdaafc.css",
-    "static/js/main.f27add16.js"
+    "static/css/main.d152b3e7.css",
+    "static/js/main.400f5e1b.js"
   ]
 }
