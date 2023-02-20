@@ -1,5 +1,6 @@
 import logo from '../assets/images/neobot-logo.png';
 import { Link } from 'react-router-dom';
+
 const Welcome = () => {
     return ( <div className="flex h-screen flex-col justify-center items-center gap-10">
         <div >
@@ -14,21 +15,14 @@ const Welcome = () => {
           <button className="button px-14 py-3 text-2xl bg-verdigris hover:bg-moonstone active:bg-moonstone duration-300">Sign In</button> 
             </Link>
             
-            {/* link to login page */}
+            {/* link to login page
             <Link to='/login'>
           <button className="button px-14 py-3 text-2xl bg-cerulean hover:bg-ceruleanD active:bg-ceruleanD duration-300">Sign up</button>
-            </Link>
+            </Link> */}
    </div>
-     {/* <button className="px-12 py-2 text-lg font-medium bg-moonstone rounded text-white">Sign up</button> 
-     <button className="px-12 py-2 text-lg font-medium bg-cerulean rounded text-white">Sign up</button> 
-     <button className="px-12 py-2 text-lg font-medium bg-dark-green rounded text-white">Sign up</button>
-     <button className="px-12 py-2 text-lg font-medium bg-black rounded text-white">Sign up</button> 
-      */}
-     
-           
 
-   
     </div> );
 }
- 
+
+
 export default Welcome;
