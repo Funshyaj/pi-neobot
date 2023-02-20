@@ -53,7 +53,7 @@ const display =()=>{
     return ( <div className="h-screen">
 
 <div className="hidden lg:flex flex- col fixed left-0 w-1/5">
-fnkn
+side bar content
 </div>
 
 <div className='relative lg:ml-[20%] h-full bg-verdigrisL'>
@@ -61,9 +61,9 @@ fnkn
 {/* message display */}
 
 
-<div className=" px-3.5 h-[87%] overflow-scroll">
+<div className=" px-3.5 lg:px-20 h-[87%] overflow-scroll">
  {/* intro */}
-  <div className="mt-4 mb-2">
+  <div className="mt-4 mb-2 lg:mt-8 lg:mb-5">
     <p className="alert">Welcome to Neobot, this is a chat bot that will answer your questions and help you do things faster</p>
     <p className="alert">Note that some answers maybe inaccurate</p>
     <p className="alert">This chatbot will not provide answer to inapproprite questions</p>
@@ -89,7 +89,7 @@ fnkn
      {/* message input */}
         <div className="flex absolute items-center bottom-0 lg:w-4/5 w-full h-[13%] pt-4 pb-4 px-2 ">
         <input required type="text" name="chat" className=" text-lg w-full border-dark-green border focus:border-black rounded-full py-3 px-4 lg:w-full" onChange={(e)=>change(e)} value={value}/>
-        <span onClick={()=>display()} className="material-symbols-outlined text-4xl text-cerulean hover:text-dark-green active:text-dark-green pointer py-3 px-4 rounded-xl">send</span>  
+        <span onClick={()=>display()} className="material-symbols-outlined duration-150 text-4xl text-cerulean hover:text-dark-green active:text-dark-green pointer py-3 px-4 rounded-xl">send</span>  
         </div>
 </div>
 

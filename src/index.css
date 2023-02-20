@@ -37,7 +37,7 @@ p{
 }
 
 .alert{@apply   
-   rounded text-white p-3 text-xs bg-dark-green my-1 }
+   rounded text-white p-3 text-xs bg-dark-green my-1  lg:text-base }
 
 
 .chat-message {
