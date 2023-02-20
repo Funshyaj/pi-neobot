@@ -63,7 +63,7 @@ const display =()=>{
   <div className="gap-5 flex flex-col">
   <div className="flex flex-row items-end gap-2">
   <span className="material-symbols-outlined">dark_mode</span>
- <p className="text-white text-xl">Dark Mode</p> 
+ <p className="text-white text-xl">Dark mode</p> 
 </div>
 
   <Link to='/login'>
