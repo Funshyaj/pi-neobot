@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pi-neobot/static/css/main.d802e894.css",
-    "main.js": "/pi-neobot/static/js/main.acc4a804.js",
+    "main.css": "/pi-neobot/static/css/main.d864b4ba.css",
+    "main.js": "/pi-neobot/static/js/main.e687a47d.js",
     "static/js/787.3356d9bc.chunk.js": "/pi-neobot/static/js/787.3356d9bc.chunk.js",
     "static/media/neobot-logo.png": "/pi-neobot/static/media/neobot-logo.b5c53910020aac7607d3.png",
     "static/media/pi-logo.png": "/pi-neobot/static/media/pi-logo.aeaf6b94c19790e8e828.png",
     "static/media/20db.otf": "/pi-neobot/static/media/20db.3951b65fc21dfb02f6b9.otf",
     "index.html": "/pi-neobot/index.html",
-    "main.d802e894.css.map": "/pi-neobot/static/css/main.d802e894.css.map",
-    "main.acc4a804.js.map": "/pi-neobot/static/js/main.acc4a804.js.map",
+    "main.d864b4ba.css.map": "/pi-neobot/static/css/main.d864b4ba.css.map",
+    "main.e687a47d.js.map": "/pi-neobot/static/js/main.e687a47d.js.map",
     "787.3356d9bc.chunk.js.map": "/pi-neobot/static/js/787.3356d9bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d802e894.css",
-    "static/js/main.acc4a804.js"
+    "static/css/main.d864b4ba.css",
+    "static/js/main.e687a47d.js"
   ]
 }
