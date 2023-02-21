@@ -51,23 +51,23 @@ const display =()=>{
 
 }
 
-    return ( <div className="h-screen">
+    return ( <div className="h-full w-full fixed">
 
-<div className="hidden bg-dark-green h-full text-white lg:block px-5 py-3 fixed left-0 w-1/5 ">
+<div className="hidden bg-dark-green h-full text-white md:block px-3 py-3 fixed left-0 w-1/5 ">
 <div className="flex flex-col justify-between h-[90%]">
   <div className="flex justify-center" >History</div>
 
 
-<div className="gap-8 flex flex-col">
+<div className="gap-5 flex flex-col">
   <hr />
-  <div className="gap-5 flex flex-col">
-  <div className="flex flex-row items-end gap-2">
+  <div className="gap-3 flex flex-col">
+  <div className="flex flex-row items-end gap-2 hover:bg-[#efefef1f] rounded p-2.5 duration-300">
   <span className="material-symbols-outlined">dark_mode</span>
  <p className="text-white text-xl">Dark mode</p> 
 </div>
 
   <Link to='/login'>
-  <div className="flex flex-row items-end gap-2">
+  <div className="flex flex-row items-end gap-2 hover:bg-[#efefef1f] rounded p-2.5 duration-300">
   <span className="material-symbols-outlined">logout</span>
  <p className="text-white text-xl">Logout</p> 
 </div>
@@ -80,12 +80,12 @@ const display =()=>{
 
 </div>
 
-<div className='relative lg:ml-[20%] h-[95%] md:h-full bg-verdigrisL'>
+<div className='md:ml-[20%] h-full w-full md:w-4/5 bg-verdigrisL'>
 
 {/* message display */}
 
 
-<div className=" px-3.5 lg:px-20 h-[87%] overflow-y-scroll">
+<div className=" px-3.5 md:px-10 lg:px-20 h-[89%] overflow-y-scroll">
  {/* intro */}
   <div className="mt-4 mb-2 lg:mt-8 lg:mb-5">
     <div className="alert">Welcome to Neobot, this is a chat bot that will answer your questions and help you do things faster</div>
@@ -112,7 +112,7 @@ const display =()=>{
 </div>
 
      {/* message input */}
-        <div className="chat-input lg:mx-auto lg:my-0">
+        <div className="chat-input md:mx-auto md:my-0">
         <input required type="text" placeholder="Message" className=" text-lg w-full focus:shadow-xl rounded-full py-3 px-4 lg:w-full" onChange={(e)=>change(e)} value={value}/>
         <span onClick={()=>display()} className=" material-symbols-outlined bg-cerulean duration-300 text-4xl text-white hover:text-cerulean hover:bg-transparent rounded-full px-3 py-2 ">send</span>  
         </div>
