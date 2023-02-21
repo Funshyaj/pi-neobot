@@ -2,7 +2,7 @@ import logo from '../assets/images/neobot-logo.png';
 import { Link } from 'react-router-dom';
 
 const Welcome = () => {
-    return ( <div className="flex h-screen flex-col justify-center items-center gap-10">
+    return ( <div className="flex h-full fixed flex-col justify-center items-center gap-10">
         <div >
           <h1 className="text-3xl lg:text-5xl font-semibold font-head mb-2 mx-3  text-center tracking-wide lg:tracking-widest">NeoBot </h1>
           <h2 className='text-3xl lg:text-4xl font-semibold mb-10 mx-3 text-center'>(A.I for Pi Network)</h2>

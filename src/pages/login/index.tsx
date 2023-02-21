@@ -8,7 +8,7 @@ type signIn={
 
 const Login = ({signIn}:signIn) => {
     return ( <div className="text-center">
-        <div className="hidden lg:flex justify-center items-center w-3/5  bg-off-white absolute left-0 h-screen">
+        <div className="hidden lg:flex justify-center items-center w-3/5  bg-off-white absolute left-0 h-full fixed">
             <img src={logo} alt="logo_png" className='min-h-[180px] w-4/5 md:w-2/5 lg:w-3/5 my-0 mx-auto animate-pulse'/>
         </div>
 
