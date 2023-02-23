@@ -15,10 +15,7 @@ const Welcome = () => {
           <button className="button px-14 py-3 text-2xl bg-verdigris hover:bg-moonstone active:bg-moonstone duration-300">Sign In</button> 
             </Link>
             
-            {/* link to login page
-            <Link to='/login'>
-          <button className="button px-14 py-3 text-2xl bg-cerulean hover:bg-ceruleanD active:bg-ceruleanD duration-300">Sign up</button>
-            </Link> */}
+
    </div>
 
     </div> );
